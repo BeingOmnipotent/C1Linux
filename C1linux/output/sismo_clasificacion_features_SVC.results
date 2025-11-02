@@ -1,0 +1,34 @@
+Experiment Name: sismo_clasificacion
+SKLL Version: 2.5.0
+Training Set: train
+Training Set Size: 800
+Test Set: test
+Test Set Size: 200
+Shuffle: True
+Feature Set: ["features"]
+Learner: SVC
+Task: evaluate
+Feature Scaling: both
+Grid Search: False
+Scikit-learn Version: 0.24.2
+Start Timestamp: 02 Nov 2025 19:29:36.040472
+End Timestamp: 02 Nov 2025 19:29:36.202445
+Total Time: 0:00:00.161973
+
+
+Fold: 
+Model Parameters: {"C": 1.0, "break_ties": false, "cache_size": 1000, "class_weight": null, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": "scale", "kernel": "rbf", "max_iter": -1, "probability": false, "random_state": 123456789, "shrinking": true, "tol": 0.001, "verbose": false}
+Grid Objective Score (Train) = 0.0
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+|              |   earthquake |   explosion |   quarry blast |   Precision |   Recall |   F-measure |
++==============+==============+=============+================+=============+==========+=============+
+|   earthquake |        [196] |           1 |              0 |       1.000 |    0.995 |       0.997 |
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+|    explosion |            0 |         [3] |              0 |       0.750 |    1.000 |       0.857 |
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+| quarry blast |            0 |           0 |            [0] |       0.000 |    0.000 |       0.000 |
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+(row = reference; column = predicted)
+Accuracy = 0.995
+Objective Function Score (Test) = 
+

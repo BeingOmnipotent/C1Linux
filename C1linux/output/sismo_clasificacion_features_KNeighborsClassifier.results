@@ -1,0 +1,34 @@
+Experiment Name: sismo_clasificacion
+SKLL Version: 2.5.0
+Training Set: train
+Training Set Size: 800
+Test Set: test
+Test Set Size: 200
+Shuffle: True
+Feature Set: ["features"]
+Learner: KNeighborsClassifier
+Task: evaluate
+Feature Scaling: both
+Grid Search: False
+Scikit-learn Version: 0.24.2
+Start Timestamp: 02 Nov 2025 19:29:33.227983
+End Timestamp: 02 Nov 2025 19:29:33.648466
+Total Time: 0:00:00.420483
+
+
+Fold: 
+Model Parameters: {"algorithm": "auto", "leaf_size": 30, "metric": "minkowski", "metric_params": null, "n_jobs": null, "n_neighbors": 5, "p": 2, "weights": "uniform"}
+Grid Objective Score (Train) = 0.0
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+|              |   earthquake |   explosion |   quarry blast |   Precision |   Recall |   F-measure |
++==============+==============+=============+================+=============+==========+=============+
+|   earthquake |        [196] |           0 |              1 |       1.000 |    0.995 |       0.997 |
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+|    explosion |            0 |         [3] |              0 |       1.000 |    1.000 |       1.000 |
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+| quarry blast |            0 |           0 |            [0] |       0.000 |    0.000 |       0.000 |
++--------------+--------------+-------------+----------------+-------------+----------+-------------+
+(row = reference; column = predicted)
+Accuracy = 0.995
+Objective Function Score (Test) = 
+

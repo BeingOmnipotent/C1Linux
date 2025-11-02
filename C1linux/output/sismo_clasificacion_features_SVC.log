@@ -1,0 +1,8 @@
+2025-11-02 19:29:36,040 - INFO - Task: evaluate
+2025-11-02 19:29:36,040 - INFO - Training on train, Test on test, feature set ['features'] ...
+2025-11-02 19:29:36,097 - INFO - Featurizing and training new SVC model
+2025-11-02 19:29:36,120 - INFO - Hyperparameters: C: 1.0, break_ties: False, cache_size: 1000, class_weight: None, coef0: 0.0, decision_function_shape: ovr, degree: 3, gamma: scale, kernel: rbf, max_iter: -1, probability: False, random_state: 123456789, shrinking: True, tol: 0.001, verbose: False
+2025-11-02 19:29:36,120 - INFO - Evaluating predictions
+2025-11-02 19:29:36,120 - WARNING - There is mismatch between the training model features and the data passed to predict. The prediction features will be transformed to the trained model space.
+2025-11-02 19:29:36,201 - WARNING - /usr/local/lib/python3.9/dist-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning:Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+2025-11-02 19:29:36,202 - WARNING - /usr/local/lib/python3.9/dist-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning:Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.

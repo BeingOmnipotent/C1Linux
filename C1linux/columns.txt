@@ -1,0 +1,326 @@
+  1. "time"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Unique values:         9076
+	Smallest value:        2025-09-17 19:51:40.060000+00:00
+	Largest value:         2025-10-17 19:27:56.890000+00:00
+	Most common values:    2025-10-08 09:20:13.500000+00:00 (2x)
+	                       2025-10-17 19:27:56.890000+00:00 (1x)
+	                       2025-10-17 19:03:22.395000+00:00 (1x)
+	                       2025-10-17 18:58:12.600000+00:00 (1x)
+	                       2025-10-17 18:51:19.660000+00:00 (1x)
+
+  2. "latitude"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         7665
+	Smallest value:        -65.588
+	Largest value:         85.038
+	Sum:                   363,348.601
+	Mean:                  40.03
+	Median:                38.788
+	StDev:                 17.263
+	Most common values:    32.118 (24x)
+	                       32.119 (15x)
+	                       32.116 (14x)
+	                       28.752 (14x)
+	                       28.75 (12x)
+
+  3. "longitude"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         7872
+	Smallest value:        -179.972
+	Largest value:         179.855
+	Sum:                   -910,952.466
+	Mean:                  -100.358
+	Median:                -117.627
+	StDev:                 78.182
+	Most common values:    -98.461 (17x)
+	                       -98.459 (14x)
+	                       -98.46 (14x)
+	                       -98.462 (12x)
+	                       -98.456 (12x)
+
+  4. "depth"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         4060
+	Smallest value:        -3.4
+	Largest value:         643.06
+	Sum:                   168,543.431
+	Mean:                  18.568
+	Median:                7.5
+	StDev:                 46.108
+	Most common values:    10 (405x)
+	                       0 (182x)
+	                       35 (81x)
+	                       6.1 (65x)
+	                       -2 (30x)
+
+  5. "mag"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         580
+	Smallest value:        -2.17
+	Largest value:         7.8
+	Sum:                   14,248.352
+	Mean:                  1.57
+	Median:                1.3
+	StDev:                 1.373
+	Most common values:    1.4 (269x)
+	                       1.5 (267x)
+	                       1.6 (258x)
+	                       1.7 (229x)
+	                       1.3 (228x)
+
+  6. "magType"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         11
+	Longest value:         5 characters
+	Most common values:    ml (6350x)
+	                       md (1703x)
+	                       mb (874x)
+	                       mww (101x)
+	                       mlv (14x)
+
+  7. "nst"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         159
+	Smallest value:        0
+	Largest value:         401
+	Sum:                   201,590
+	Mean:                  25.822
+	Median:                18
+	StDev:                 24.353
+	Most common values:    None (1270x)
+	                       5 (404x)
+	                       8 (390x)
+	                       9 (320x)
+	                       4 (315x)
+
+  8. "gap"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         720
+	Smallest value:        12
+	Largest value:         345
+	Sum:                   846,148.36
+	Mean:                  108.397
+	Median:                91
+	StDev:                 63.263
+	Most common values:    None (1271x)
+	                       79 (113x)
+	                       69 (89x)
+	                       55 (84x)
+	                       62 (84x)
+
+  9. "dmin"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5208
+	Smallest value:        0
+	Largest value:         31.393
+	Sum:                   3,313.624
+	Mean:                  0.425
+	Median:                0.058
+	StDev:                 1.414
+	Most common values:    None (1273x)
+	                       0 (523x)
+	                       0.1 (431x)
+	                       0.2 (65x)
+	                       0.01 (25x)
+
+ 10. "rms"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         527
+	Smallest value:        0
+	Largest value:         3.26
+	Sum:                   2,571.591
+	Mean:                  0.283
+	Median:                0.17
+	StDev:                 0.295
+	Most common values:    0.1 (663x)
+	                       0.2 (607x)
+	                       0.02 (450x)
+	                       0.15 (263x)
+	                       0.01 (252x)
+
+ 11. "net"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         15
+	Longest value:         2 characters
+	Most common values:    nc (1335x)
+	                       ak (1269x)
+	                       ci (1239x)
+	                       us (1094x)
+	                       tx (1012x)
+
+ 12. "id"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         9077
+	Longest value:         12 characters
+	Most common values:    nc75250716 (1x)
+	                       ak025dbx6kkv (1x)
+	                       ak025dbwwwlo (1x)
+	                       us6000rhxs (1x)
+	                       ak025dbwq2af (1x)
+
+ 13. "updated"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Unique values:         9077
+	Smallest value:        2025-09-17 20:00:32.921000+00:00
+	Largest value:         2025-10-17 19:46:14.040000+00:00
+	Most common values:    2025-10-17 19:29:35.427000+00:00 (1x)
+	                       2025-10-17 19:04:53.528000+00:00 (1x)
+	                       2025-10-17 19:00:40.702000+00:00 (1x)
+	                       2025-10-17 19:37:48.768000+00:00 (1x)
+	                       2025-10-17 18:28:05.901000+00:00 (1x)
+
+ 14. "place"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         5036
+	Longest value:         58 characters
+	Most common values:    5 km SE of Christine, Texas (96x)
+	                       8 km NW of Prague, Oklahoma (88x)
+	                       7 km NW of The Geysers, CA (47x)
+	                       8 km SE of Sparks, Oklahoma (47x)
+	                       47 km ESE of Beatty, Nevada (45x)
+
+ 15. "type"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         8
+	Longest value:         12 characters
+	Most common values:    earthquake (7089x)
+	                       EARTHQUAKE (1785x)
+	                       quarry blast (103x)
+	                       explosion (55x)
+	                       QUARRY BLAST (27x)
+
+ 16. "horizontalError"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         1939
+	Smallest value:        0
+	Largest value:         23.07
+	Sum:                   13,021.147
+	Mean:                  1.895
+	Median:                0.496
+	StDev:                 3.275
+	Most common values:    None (2206x)
+	                       0.25 (120x)
+	                       0.19 (117x)
+	                       0.17 (115x)
+	                       0.22 (114x)
+
+ 17. "depthError"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         2579
+	Smallest value:        0
+	Largest value:         1,391.8
+	Sum:                   22,017.941
+	Mean:                  2.427
+	Median:                0.8
+	StDev:                 15.484
+	Most common values:    0.3 (366x)
+	                       0.2 (277x)
+	                       0.4 (275x)
+	                       0.5 (255x)
+	                       0.6 (204x)
+
+ 18. "magError"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         2481
+	Smallest value:        0
+	Largest value:         1.17
+	Sum:                   1,331.405
+	Mean:                  0.171
+	Median:                0.158
+	StDev:                 0.102
+	Most common values:    None (1300x)
+	                       0.1 (608x)
+	                       0.2 (487x)
+	                       0 (179x)
+	                       0.16 (114x)
+
+ 19. "magNst"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Unique values:         250
+	Smallest value:        0
+	Largest value:         818
+	Sum:                   172,893
+	Mean:                  22.166
+	Median:                12
+	StDev:                 44.177
+	Most common values:    None (1277x)
+	                       5 (538x)
+	                       4 (524x)
+	                       6 (450x)
+	                       7 (434x)
+
+ 20. "status"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         4
+	Longest value:         9 characters
+	Most common values:    reviewed (5198x)
+	                       automatic (2090x)
+	                       REVIEWED (1267x)
+	                       AUTOMATIC (522x)
+
+ 21. "locationSource"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         30
+	Longest value:         2 characters
+	Most common values:    nc (1203x)
+	                       ak (1154x)
+	                       ci (1110x)
+	                       us (997x)
+	                       tx (919x)
+
+ 22. "magSource"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         15
+	Longest value:         2 characters
+	Most common values:    nc (1335x)
+	                       ak (1269x)
+	                       ci (1239x)
+	                       us (1094x)
+	                       tx (1012x)
+
+Row count: 9077
