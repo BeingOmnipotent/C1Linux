@@ -1,3 +1,11 @@
+# Ignorar todo el contenido de este directorio y subdirectorios
 *
+
+# Excepciones: "No ignorar"
+!/.gitignore
+!/C1linux/  <-- ¡Esta línea excluye la carpeta!
+
+# Opcional: Si tienes subdirectorios dentro de C1linux que no quieres ignorar, 
+# puede que necesites !/C1linux/**/**
 !/.gitignore
 !/C1linux/
